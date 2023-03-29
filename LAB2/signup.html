@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Signup Page</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+
+    <body>
+        <h1>Welcome to Internet-Programming Shop!</h1>
+
+        <div class = "box"><a href = "login.html">로그인</a></div>
+        <div class = "box currentBox"><a herf = "signup.html">회원가입</a></div>
+    
+        <hr>
+        <form method = "GET" autocomplete = "on" action = "login.html">
+            <p>개인 정보 (필수)</p>
+            <p>
+                <label>이름: <input name = "name" type = "text" placeholder = "이름을 입력하세요" autofocus required></label>
+            </p>
+            <p>
+                <label>생일: <input name = "birthday" type = "date"></label>
+            </p>
+            <p>
+                <label>학년: <input name = "grade" type = "number" min = "1" max = "4" step = "1" value = "1" required>(1~4 학년)</label>
+            </p>
+            <p>
+                <label>전화번호: <input name = "tel" type = "tel" placeholder = "(###)###-####"
+                    pattern = "\(\d{3}\)\d{3}-\d{4}" required></label>
+            </p>
+            <p>
+                <label>이메일 주소: <input name = "email" type = "email" placeholder = "이메일 주소를 입력하세요" required></label>
+            </p>
+            <p>
+                <label>유저 아이디: <input name = "username" type = "search" placeholder = "아이디를 입력하세요" required></label>
+            </p>
+            <p>
+                <label>비밀번호: <input name = "password" type = "password" placeholder = "비밀번호를 입력하세요" required></label>
+            </p>
+            <p>
+                <label>비밀번호 확인: <input name = "passwordc_check" type = "password" placeholder = "비밀번호를 입력하세요" required></label>
+            </p>
+
+            <p>
+                <br>
+                <input class = "signup" type = "submit" value = "Signup">
+                <input class = "save" type = "submit" formnovalidate value = "Save">
+                <input class = "cancel" type = "reset" value = "Cancel">
+            </p>
+        </form>
+        <hr>
+
+    </body>
+</html>

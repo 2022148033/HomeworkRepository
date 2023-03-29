@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Verdana";
+    line-height: 175%;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+span {
+    border-style: solid;
+}
+hr {
+    border-style: solid;
+}
+form {
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+
+    font-size: 20px;
+    padding: 3px;
+    margin: 3px;
+}
+.currentBox {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: medium;
+    border-color: red;
+
+    font-weight: bold;
+}
+div a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.signup {
+    background-color: skyblue;
+    width: 100px;
+    height: 35px;
+}
+.login {
+    background-color: green;
+    width: 100px;
+    height: 35px;
+}
+.save {
+    background-color: orange;
+    width: 100px;
+    height: 35px;
+}
+.cancel {
+    background-color: red;
+    width: 100px;
+    height: 35px;
+}
