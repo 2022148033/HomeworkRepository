@@ -1,0 +1,209 @@
+[
+    {
+        "id": 1,
+        "name": "The C++ Programming Language",
+        "author": "Bjarne Stroustrup",
+        "ISBN": "0321958322",
+        "category": "C++",
+        "price": 71.49,
+        "image": "The_C++_Programming_Language.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14",
+        "author": "Scott Meyers",
+        "ISBN": "9781491903995",
+        "category": "C++",
+        "price": 43.99,
+        "image": "Effective_Modern_C++.jpg"
+    },
+    {
+        "id": 3,
+        "name": "C++20 - The Complete Guide",
+        "author": "Nicolai M. Josuttis",
+        "ISBN": "396730020X",
+        "category": "C++",
+        "price": 69.89,
+        "image": "C++20_Complete_Guide.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Starting Out with C++ from Control Structures to Objects",
+        "author": "Tony Gaddis",
+        "ISBN": "9780134498379",
+        "category": "C++",
+        "price": 80.29,
+        "image": "Starting_Out_with_C++_from_Control_Structures_to_Objects.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Programming: Principles and Practice Using C++",
+        "author": "Bjarne Stroustrup",
+        "ISBN": "0275967816",
+        "category": "C++",
+        "price": 67.49,
+        "image": "Programming-Principles_and_Practice_Using_C++.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Effective Java",
+        "author": "Joshua Bloch",
+        "ISBN": "0134685997",
+        "category": "Java",
+        "price": 48.49,
+        "image": "Effective_Java.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Java: The Complete Reference",
+        "author": "Herbert Schildt",
+        "ISBN": "1260463419",
+        "category": "Java",
+        "price": 50.74,
+        "image": "Java-The_Complete_Reference.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Head First Java: A Brain-Friendly Guide",
+        "author": "Kathy Sierra",
+        "ISBN": "1491910771",
+        "category": "Java",
+        "price": 38.98,
+        "image": "Head_First_Java-A_Brain-Friendly_Guide.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Java For Dummies",
+        "author": "Barry Burd",
+        "ISBN": "1119861640",
+        "category": "Java",
+        "price": 20.06,
+        "image": "Java_For_Dummies.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Learning Python",
+        "author": "Mark Lutz",
+        "ISBN": "1449355730",
+        "category": "Python",
+        "price": 58.55,
+        "image": "Learning_Python.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Think Python: How to Think Like a Computer Scientist",
+        "author": "Allen Downey",
+        "ISBN": "1491939362",
+        "category": "Python",
+        "price": 27.00,
+        "image": "Think_Python-How_to_Think_Like_a_Computer_Scientist.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Python in a Nutshell: A Desktop Quick Reference",
+        "author": "Alex Martelli",
+        "ISBN": "1098113551",
+        "category": "Python",
+        "price": 67.50,
+        "image": "Python_in_a_Nutshell-A_Desktop_Quick_Reference.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Fluent Python: Clear, Concise, and Effective Programming",
+        "author": "Luciano Ramalho",
+        "ISBN": "1492056359",
+        "category": "Python",
+        "price": 50.89,
+        "image": "Fluent_Python-Clear,_Concise,_and_Effective_Programming.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Starting Out with Python",
+        "author": "Tony Gaddis",
+        "ISBN": "0134444329",
+        "category": "Python",
+        "price": 58.00,
+        "image": "Starting_Out_with_Python.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Python for Data Science For Dummies",
+        "author": "John Paul Mueller",
+        "ISBN": "1119547628",
+        "category": "Python",
+        "price": 13.99,
+        "image": "Python_for_Data_Science_For_Dummies.jpg"
+    },
+    {
+        "id": 16,
+        "name": "HTML5 Pocket Reference: Quick, Comprehensive, Indispensable",
+        "author": "Jennifer Robbins",
+        "ISBN": "1449363350",
+        "category": "HTML",
+        "price": 12.88,
+        "image": "HTML5_Pocket_Reference-Quick,_Comprehensive,_Indispensable.jpg"
+    },
+    {
+        "id": 17,
+        "name": "HTML in easy steps",
+        "author": "Mike McGrath",
+        "ISBN": "1840788763",
+        "category": "HTML",
+        "price": 11.39,
+        "image": "HTML_in_easy_steps.jpg"
+    },
+    {
+        "id": 18,
+        "name": "HTML & XHTML: The Definitive Guide",
+        "author": "Chuck Musciano",
+        "ISBN": "0596527322",
+        "category": "HTML",
+        "price": 23.80,
+        "image": "HTML%XHTML-The_Definitive_Guide.jpg"
+    },
+    {
+        "id": 19,
+        "name": "HTML QuickStart Guide: The Simplified Beginner's Guide To HTML",
+        "author": "ClydeBank Technology",
+        "ISBN": "1511617993",
+        "category": "HTML",
+        "price": 5.49,
+        "image": "HTML_QuickStart_Guide-The_Simplified_Beginner's_Guide_To_HTML.jpg"
+    },
+    {
+        "id": 20,
+        "name": "CSS in easy steps",
+        "author": "Mike McGrath",
+        "ISBN": "1840788755",
+        "category": "CSS",
+        "price": 7.31,
+        "image": "CSS_in_easy_steps.jpg"
+    },
+    {
+        "id": 21,
+        "name": "CSS: The Definitive Guide: Web Layout and Presentation",
+        "author": "Eric Meyer",
+        "ISBN": "1098117611",
+        "category": "CSS",
+        "price": 89.99,
+        "image": "CSS-The_Definitive_Guide-Web_Layout_and_Presentation.jpg"
+    },
+    {
+        "id": 22,
+        "name": "CSS Pocket Reference: Visual Presentation for the Web",
+        "author": "Eric Meyer",
+        "ISBN": "1492033391",
+        "category": "CSS",
+        "price": 6.59,
+        "image": "CSS_Pocket_Reference-Visual_Presentation_for_the_Web.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Python Basics: A Practical Introduction to Python 3",
+        "author": "David Amos",
+        "ISBN": "1775093328",
+        "category": "Python",
+        "price": 10.99,
+        "image": "Python_Basics-A_Practical_Introduction_to_Python_3.jpg"
+    }
+]
