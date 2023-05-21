@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Verdana";
+    line-height: 175%;
+}
+
+body {
+    max-width: 1020px;
+    margin: 0 auto;
+    background-color: skyblue;
+}
+header {
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 10px 30px rgb(194, 201, 206);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 15px 15px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/*id*/
+#filter {
+    display: flex;
+    width: 100%;
+}
+
+/*element*/
+a {
+    text-decoration: none;
+    color: black;
+}
+span {
+    border: 5px inset lightgray;
+}
+form {
+    padding: 0px 15px;
+}
+hr{
+    background-color: black;
+    border-color: black;
+}
+
+/*element class*/
+h1.slide {
+    padding-left: 20px;
+    animation-name: slideText;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+h1.title {
+    font-family: "Georgia";
+    text-align: center;
+}
+hr.seperate {
+    border: 0;
+    height: 2px;
+    border-style: solid;
+    margin-top: 5px;
+}
+div.box a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*class*/
+.init_background {
+    background-color: whitesmoke;
+    width: 100%;
+    border-radius: 15px;
+}
+.description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.collection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: azure;
+    width: 80%;
+}
+.itemBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.item {
+    display: flex;
+    position: relative;
+    float: left;
+    margin: 5px;
+
+    aspect-ratio: 2/3;
+    border: 1px solid gray;
+
+    transition: transform 2s;
+}
+.item > img {
+    width: 100%;
+}
+.item > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    
+    opacity: 0;
+}
+.item > div :nth-child(n) {
+    padding: 3px;
+}
+.item > div :nth-child(1) {
+    font-weight: bold;
+}
+.item > div :nth-child(2) {
+    margin-top: 10px;
+    font-size: 8px;
+}
+.item > div :nth-child(3) {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+
+    color: yellow;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+
+    font-size: 18px;
+    padding: 3px;
+    margin: 3px;
+}
+.currentBox {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: medium;
+    border-color: red;
+
+    font-weight: bold;
+}
+
+.signup {
+    background-color: skyblue;
+    width: 100px;
+    height: 35px;
+}
+.login {
+    background-color: green;
+    width: 100px;
+    height: 35px;
+}
+.save {
+    background-color: orange;
+    width: 100px;
+    height: 35px;
+}
+.cancel {
+    background-color: red;
+    width: 100px;
+    height: 35px;
+}
+
+.filter_form {
+    background-color: rgba(0, 255, 255, 0.5);
+    width: 20%;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+@keyframes slideText {
+    from {transform: translateX(100%);}
+    to {transform: translateX(0%);}
+}
+
+@media (min-width: 801px) {
+    .item {
+        width: 31%;
+    }
+}
+@media (max-width: 800px) {
+    nav {
+        flex-direction: column;
+    }
+
+    #filter {
+        flex-direction: column;
+    }
+    .filter_form, .collection {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .item {
+        width: 45%;
+    }
+}
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+    
+    .itemBox {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 100%;
+    }
+}

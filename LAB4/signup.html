@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Signup Page</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+
+    <body>
+        <div class = "init_background">
+            <header>
+                <h1 class = "title">Welcome to Internet-Programming Shop!</h1>
+                
+                <nav>
+                    <div class = "box"><a href = "index.html">메인 페이지</a></div>
+                    <div class = "box"><a href = "login.html">로그인</a></div>
+                    <div class = "box currentBox"><a href = "signup.html">회원가입</a></div>
+                </nav>
+            </header>
+                        
+            <section style = "padding: 15px 0px">
+                <form method = "GET" autocomplete = "on" action = "login.html">
+                    <span><strong>개인 정보 (필수)</strong></span>
+                    <p>
+                        <label>이름: <input name = "name" type = "text" placeholder = "이름을 입력하세요" autofocus required></label>
+                    </p>
+                    <p>
+                        <label>생일: <input name = "birthday" type = "date"></label>
+                    </p>
+                    <p>
+                        <label>학년: <input name = "grade" type = "number" min = "1" max = "4" step = "1" value = "1" required>(1~4 학년)</label>
+                    </p>
+                    <p>
+                        성별: 
+                        <label>남성 <input name = "gender" type = "radio" value = "Male" checked></label>
+                        | 
+                        <label>여성 <input name = "gender" type = "radio" value = "Female"></label>
+                    </p>
+                    <p>
+                        <label>전화번호: <input name = "tel" type = "tel" placeholder = "(###)###-####"
+                            pattern = "\(\d{3}\)\d{3}-\d{4}" autocomplete = "off"></label>
+                    </p>
+                    <p>
+                        <label>이메일 주소: <input name = "email" type = "email" placeholder = "이메일 주소를 입력하세요" required></label>
+                    </p>
+                    <p>
+                        <label>유저 아이디: <input name = "username" type = "search" placeholder = "아이디를 입력하세요" required></label>
+                    </p>
+                    <p>
+                        <label>비밀번호: <input name = "password" type = "password" placeholder = "비밀번호를 입력하세요" required></label>
+                    </p>
+                    <p>
+                        <label>비밀번호 확인: <input name = "passwordc_check" type = "password" placeholder = "비밀번호를 입력하세요" required></label>
+                    </p>
+                    <p>
+                        프로그래밍 언어 선택: 
+                        <label>C/C++ <input name = "programming_language" type = "checkbox" value = "C/C++"></label>
+                        | 
+                        <label>Java <input name = "programming_language" type = "checkbox" value = "Java"></label>
+                        | 
+                        <label>C# <input name = "programming_language" type = "checkbox" value = "C#"></label>
+                        | 
+                        <label>Python <input name = "programming_language" type = "checkbox" value = "Python"></label>
+                         (중복 선택 가능)
+                    </p>
+        
+                    <p>
+                        <input class = "signup" type = "submit" value = "Signup">
+                        <input class = "save" type = "submit" formnovalidate value = "Save">
+                        <input class = "cancel" type = "reset" value = "Cancel">
+                    </p>
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
